@@ -4,7 +4,7 @@
 body {
   background-color: #ede6e6;
   margin: 0 auto;
-  width: 90vw;
+  width: 87vw;
   font-family: arial, helvetica;
 
 }
@@ -14,7 +14,11 @@ a {
 }
 /* Header portion */
 header {
-  height: 25vw;
+  height: 25vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+
 }
 li {
   display: inline;
@@ -23,4 +27,29 @@ li {
 }
 header li:first-child {
   border-right: 1px solid #373535;
+}
+.left {
+  width: 29vw;
+  order: 2;
+
+}
+.middle {
+  width: 39vw;
+  order: 2;
+  text-align: center;
+  color: #b46363;
+  font-size: 1.5em;
+}
+.middle p {
+  margin-top: 0;
+  
+  text-align: center;
+}
+.right {
+  width: 29vw;
+  order: 3;
+
+}
+.left ul, .right ul {
+  display: flex;
 }
