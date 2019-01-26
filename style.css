@@ -58,6 +58,8 @@ header li:first-child {
 /* css for main body */
 #main {
   background: url("/home/darshan/Project/MyRecipe/images/images/dishes.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 60vh;
   display: flex;
   justify-content: flex-start;
@@ -81,6 +83,7 @@ header li:first-child {
 }
 #click {
   height: 20px;
+  border-radius: 5px;
 }
 [type="email"] {
   margin-right: 10px;
@@ -95,4 +98,27 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+/* time to work on middle thingy */
+/* flexbox----> here we go */
+.cf {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+.box img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.box {
+  position: relative;
+}
+.box p {
+  font-size: 24px;
+  position: absolute;
+  top: 10px;
+  text-align: center;
+  left: 5vw;
 }
