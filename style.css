@@ -122,3 +122,7 @@ footer {
   text-align: center;
   left: 5vw;
 }
+/* time to work on media */
+@media (max-width: 300px) {
+
+}
